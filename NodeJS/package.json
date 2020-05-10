@@ -1,0 +1,16 @@
+{
+  "name": "NodeJS",
+  "version": "1.0.0",
+  "description": "* node中的模块系统使用 * node中的api使用 * 实战cli工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "download-git-repo": "^3.0.2",
+    "ora": "^4.0.4"
+  }
+}

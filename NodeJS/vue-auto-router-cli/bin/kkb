@@ -1,0 +1,2 @@
+#! /usr/bin/ebv node
+console.log('....')
