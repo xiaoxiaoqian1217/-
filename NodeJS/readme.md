@@ -104,6 +104,28 @@ console.log(`内存占用率${mem.toFixed(2)}%`)
   reponse header 中的`Content-Type: text/html` 表示服务端发送的数据格式是html格式的
 
 
+  <------------->
+
+  做一个vue的路由脚手架
+  * kkb
+    + npm init 初始化
+    + 注册node解释器
+    + 在package.json 中添加shell就可以运行
+    ```
+    "bin": {
+    "kkb": "./bin/kkb"
+    }
+    ```
+    + `npm link` 就可以执行你开发环境中的shell
+    + `kkb` 执行bin 目录下的kkb文件
+    + 添加命令 `init <name>`下载模版
+    + 添加命令 `refresh` 约定路由
+
+
+
+
+
+
  
 
 

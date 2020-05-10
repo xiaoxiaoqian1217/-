@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+const program = require('commander')
+const {clone} = require('../lib/download')
+program.command('init <name>','init project')
+    .action(async (name, other) => {
+      // 原以为 name 就可以直接 得到项目名，没想到不行，暂时先这样操作 
+            console.log('init ' + name)
+            console.log('🚀创建项目:' + other)
+            other.forEach(async element => {
+              await clone('github:su37josephxia/vue-template',element)
+            });
+            // 从github克隆项目到指定文件夹
+    })
+program.parse(process.argv)
