@@ -106,10 +106,11 @@ console.log(`内存占用率${mem.toFixed(2)}%`)
 
   <------------->
 
-  做一个vue的路由脚手架
+  做一个vue的路由脚手架 - 实现约定路由功能
+  > 约定路由实际上就是，你新增一个vue文件（一个页面），在route文件中自动生成这个路由配置 
   * kkb
     + npm init 初始化
-    + 注册node解释器
+    + 注册node解释器 - 见bin文件夹
     + 在package.json 中添加shell就可以运行
     ```
     "bin": {
@@ -120,6 +121,8 @@ console.log(`内存占用率${mem.toFixed(2)}%`)
     + `kkb` 执行bin 目录下的kkb文件
     + 添加命令 `init <name>`下载模版
     + 添加命令 `refresh` 约定路由
+  * 发布 npm 
+  
 
 
 
